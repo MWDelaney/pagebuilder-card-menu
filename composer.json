@@ -1,0 +1,17 @@
+{
+  "name": "mwdelaney/pagebuilder-card-menu",
+  "description": "Card Menu module for PageBuilder.",
+  "keywords": ["wordpress", "plugin", "pagebuilder", "card menu"],
+  "homepage": "https://github.com/MWDelaney/pagebuilder-card-menu",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael W. Delaney",
+      "email": "michael@michaeldelaney.me"
+    }
+  ],
+  "type": "wordpress-muplugin",
+  "require": {
+    "php": ">=5.3.2"
+  }
+}
