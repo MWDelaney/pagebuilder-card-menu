@@ -504,7 +504,7 @@ class Card_Menu_Menu_Module_Walker extends Walker_Nav_Menu {
 
         $item_output = $args->has_children ? '<div class="fl-has-submenu-container">' : '';
         $item_output .= $args->before;
-        $item_output .= '<div class="card"><div class="card-block"><h4 class="card-title mb-5">' . apply_filters( 'the_title', $item->title, $item->ID ) . '</h4><a'. $attributes .'>';
+        $item_output .= '<div class="card"><div class="card-block text-center"><h3 class="card-title mb-5">' . apply_filters( 'the_title', $item->title, $item->ID ) . '</h3><a'. $attributes .'>';
         $item_output .= $args->link_before . "Learn More" . $args->link_after;
         $item_output .= '</a></div> <!-- /.card-block --> </div> <!-- /.card -->';
 
